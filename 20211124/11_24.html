@@ -243,7 +243,7 @@
       <div id="u26" class="ax_default box_3">
         <div id="u26_div" class=""></div>
         <div id="u26_text" class="text ">
-          <p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;font-weight:700;">说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">1. 原接口调用时是通过memberID调用的，但前线、运营同学在使用时是不清楚memberID的，所以模板字段设计的是通过Phone Number来对状态进行更改。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">2. Operation，暂定使用suspend/unsuspend区分需要对账户状态进行的操作是哪一种。可以将suspend/unsuspend替换为数字代码进行区分，如使用0/1代挂起或解除挂起。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">3. Operation列可以考虑一下后续支持其他操作，如cap(只出不进)/uncap、freeze(冻结，不进不出)/unfreeze</span></p>
+          <p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;font-weight:700;">说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">1. 原接口调用时是通过memberID调用的，但前线、运营同学在使用时是不清楚memberID的，所以模板字段设计的是通过Phone Number来对状态进行更改。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">2. Operation，暂定使用suspend/unsuspend区分需要对账户状态进行的操作是哪一种。可以将suspend/unsuspend替换为数字代码进行区分，如使用0/1代挂起或解除挂起。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">3. Operation列可以考虑一下后续支持其他操作，如cap(只出不进)/uncap、freeze(冻结，不进不出)/unfreeze</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">4. 导入数据限制3000条每次。</span></p>
         </div>
       </div>
 
@@ -684,80 +684,88 @@
         </div>
       </div>
 
+      <!-- Unnamed (矩形) -->
+      <div id="u80" class="ax_default box_3">
+        <div id="u80_div" class=""></div>
+        <div id="u80_text" class="text ">
+          <p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;font-weight:700;">错误类型及提示对照说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:12px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;font-size:13px;">1. 手机号长度/格式不正确：</span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">Phone Number is wrong.</span></p><p style="font-size:12px;"><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">2. 未注册Partner账号：This phone number has not register PalmPartner.</span></p><p style="font-size:12px;"><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">3. 已挂起账号操作挂起：Account has been Suspend.</span></p><p style="font-size:12px;"><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">4. 未挂起结账号操作解除挂起：Account has been Unsuspend.</span></p>
+        </div>
+      </div>
+
       <!-- Unnamed (动态面板) -->
-      <div id="u80" class="ax_default">
-        <div id="u80_state0" class="panel_state" data-label="State1" style="">
-          <div id="u80_state0_content" class="panel_state_content">
+      <div id="u81" class="ax_default">
+        <div id="u81_state0" class="panel_state" data-label="State1" style="">
+          <div id="u81_state0_content" class="panel_state_content">
 
             <!-- Unnamed (矩形) -->
-            <div id="u81" class="ax_default _默认样式">
-              <div id="u81_div" class=""></div>
-              <div id="u81_text" class="text " style="display:none; visibility: hidden">
+            <div id="u82" class="ax_default _默认样式">
+              <div id="u82_div" class=""></div>
+              <div id="u82_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u82" class="ax_default _默认样式">
-              <div id="u82_div" class=""></div>
-              <div id="u82_text" class="text ">
+            <div id="u83" class="ax_default _默认样式">
+              <div id="u83_div" class=""></div>
+              <div id="u83_text" class="text ">
                 <p><span>Batch Processing</span></p>
               </div>
             </div>
 
             <!-- 关闭 (矩形) -->
-            <div id="u83" class="ax_default _默认样式" data-label="关闭" title="关闭">
-              <div id="u83_div" class=""></div>
-              <div id="u83_text" class="text ">
+            <div id="u84" class="ax_default _默认样式" data-label="关闭" title="关闭">
+              <div id="u84_div" class=""></div>
+              <div id="u84_text" class="text ">
                 <p><span></span></p>
               </div>
             </div>
 
             <!-- 加载提示 (动态面板) -->
-            <div id="u84" class="ax_default" data-label="加载提示">
-              <div id="u84_state0" class="panel_state" data-label="正在加载" style="">
-                <div id="u84_state0_content" class="panel_state_content">
+            <div id="u85" class="ax_default" data-label="加载提示">
+              <div id="u85_state0" class="panel_state" data-label="正在加载" style="">
+                <div id="u85_state0_content" class="panel_state_content">
 
                   <!-- Unnamed (组合) -->
-                  <div id="u85" class="ax_default" data-left="0" data-top="0" data-width="210" data-height="30">
+                  <div id="u86" class="ax_default" data-left="0" data-top="0" data-width="210" data-height="30">
 
                     <!-- Unnamed (矩形) -->
-                    <div id="u86" class="ax_default _默认样式">
-                      <div id="u86_div" class=""></div>
-                      <div id="u86_text" class="text ">
+                    <div id="u87" class="ax_default _默认样式">
+                      <div id="u87_div" class=""></div>
+                      <div id="u87_text" class="text ">
                         <p><span>Operation Processing</span></p>
                       </div>
                     </div>
 
                     <!-- Unnamed (SVG) -->
-                    <div id="u87" class="ax_default _默认样式">
-                      <img id="u87_img" class="img " src="images/11_24/u87.svg"/>
-                      <div id="u87_text" class="text " style="display:none; visibility: hidden">
+                    <div id="u88" class="ax_default _默认样式">
+                      <img id="u88_img" class="img " src="images/11_24/u88.svg"/>
+                      <div id="u88_text" class="text " style="display:none; visibility: hidden">
                         <p></p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="u84_state1" class="panel_state" data-label="加载完成" style="visibility: hidden;">
-                <div id="u84_state1_content" class="panel_state_content">
+              <div id="u85_state1" class="panel_state" data-label="加载完成" style="visibility: hidden;">
+                <div id="u85_state1_content" class="panel_state_content">
 
                   <!-- Unnamed (组合) -->
-                  <div id="u88" class="ax_default" data-left="30" data-top="0" data-width="180" data-height="30">
+                  <div id="u89" class="ax_default" data-left="30" data-top="0" data-width="180" data-height="30">
 
                     <!-- Unnamed (矩形) -->
-                    <div id="u89" class="ax_default _默认样式">
-                      <div id="u89_div" class=""></div>
-                      <div id="u89_text" class="text ">
+                    <div id="u90" class="ax_default _默认样式">
+                      <div id="u90_div" class=""></div>
+                      <div id="u90_text" class="text ">
                         <p><span>Operation Completed !</span></p>
                       </div>
                     </div>
                   </div>
 
                   <!-- Unnamed (矩形) -->
-                  <div id="u90" class="ax_default _默认样式">
-                    <div id="u90_div" class=""></div>
-                    <div id="u90_text" class="text ">
+                  <div id="u91" class="ax_default _默认样式">
+                    <div id="u91_div" class=""></div>
+                    <div id="u91_text" class="text ">
                       <p><span></span></p>
                     </div>
                   </div>
@@ -769,50 +777,42 @@
       </div>
 
       <!-- Unnamed (动态面板) -->
-      <div id="u91" class="ax_default">
-        <div id="u91_state0" class="panel_state" data-label="State1" style="">
-          <div id="u91_state0_content" class="panel_state_content">
+      <div id="u92" class="ax_default">
+        <div id="u92_state0" class="panel_state" data-label="State1" style="">
+          <div id="u92_state0_content" class="panel_state_content">
 
             <!-- Unnamed (矩形) -->
-            <div id="u92" class="ax_default _默认样式">
-              <div id="u92_div" class=""></div>
-              <div id="u92_text" class="text " style="display:none; visibility: hidden">
+            <div id="u93" class="ax_default _默认样式">
+              <div id="u93_div" class=""></div>
+              <div id="u93_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u93" class="ax_default _默认样式">
-              <div id="u93_div" class=""></div>
-              <div id="u93_text" class="text ">
+            <div id="u94" class="ax_default _默认样式">
+              <div id="u94_div" class=""></div>
+              <div id="u94_text" class="text ">
                 <p><span>Batch Processing</span></p>
               </div>
             </div>
 
             <!-- 关闭 (矩形) -->
-            <div id="u94" class="ax_default _默认样式" data-label="关闭" title="关闭">
-              <div id="u94_div" class=""></div>
-              <div id="u94_text" class="text ">
+            <div id="u95" class="ax_default _默认样式" data-label="关闭" title="关闭">
+              <div id="u95_div" class=""></div>
+              <div id="u95_text" class="text ">
                 <p><span></span></p>
               </div>
             </div>
 
             <!-- 原生表格 (表格) -->
-            <div id="u95" class="ax_default" data-label="原生表格">
-
-              <!-- Unnamed (单元格) -->
-              <div id="u96" class="ax_default _默认样式">
-                <img id="u96_img" class="img " src="images/11_24/u96.png"/>
-                <div id="u96_text" class="text ">
-                  <p><span>Phone Number</span></p>
-                </div>
-              </div>
+            <div id="u96" class="ax_default" data-label="原生表格">
 
               <!-- Unnamed (单元格) -->
               <div id="u97" class="ax_default _默认样式">
                 <img id="u97_img" class="img " src="images/11_24/u97.png"/>
                 <div id="u97_text" class="text ">
-                  <p><span>Error Information</span></p>
+                  <p><span>Phone Number</span></p>
                 </div>
               </div>
 
@@ -820,7 +820,7 @@
               <div id="u98" class="ax_default _默认样式">
                 <img id="u98_img" class="img " src="images/11_24/u98.png"/>
                 <div id="u98_text" class="text ">
-                  <p><span>023409865437531</span></p>
+                  <p><span>Error Information</span></p>
                 </div>
               </div>
 
@@ -828,15 +828,15 @@
               <div id="u99" class="ax_default _默认样式">
                 <img id="u99_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u99_text" class="text ">
-                  <p><span>Phone Number is wrong.</span></p>
+                  <p><span>023409865437531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u100" class="ax_default _默认样式">
-                <img id="u100_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u100_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u100_text" class="text ">
-                  <p><span>023409865447531</span></p>
+                  <p><span>Phone Number is wrong.</span></p>
                 </div>
               </div>
 
@@ -844,15 +844,15 @@
               <div id="u101" class="ax_default _默认样式">
                 <img id="u101_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u101_text" class="text ">
-                  <p><span>This phone number has not register PalmPartner.</span></p>
+                  <p><span>023409865447531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u102" class="ax_default _默认样式">
-                <img id="u102_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u102_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u102_text" class="text ">
-                  <p><span>023409865457531</span></p>
+                  <p><span>This phone number has not register PalmPartner.</span></p>
                 </div>
               </div>
 
@@ -860,15 +860,15 @@
               <div id="u103" class="ax_default _默认样式">
                 <img id="u103_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u103_text" class="text ">
-                  <p><span>Account has been Suspend/Unsuspend.</span></p>
+                  <p><span>023409865457531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u104" class="ax_default _默认样式">
-                <img id="u104_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u104_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u104_text" class="text ">
-                  <p><span>023409865467531</span></p>
+                  <p><span>Account has been Suspend/Unsuspend.</span></p>
                 </div>
               </div>
 
@@ -876,15 +876,15 @@
               <div id="u105" class="ax_default _默认样式">
                 <img id="u105_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u105_text" class="text ">
-                  <p><span>Phone Number is wrong.</span></p>
+                  <p><span>023409865467531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u106" class="ax_default _默认样式">
-                <img id="u106_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u106_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u106_text" class="text ">
-                  <p><span>023409865477531</span></p>
+                  <p><span>Phone Number is wrong.</span></p>
                 </div>
               </div>
 
@@ -892,15 +892,15 @@
               <div id="u107" class="ax_default _默认样式">
                 <img id="u107_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u107_text" class="text ">
-                  <p><span>This phone number has not register PalmPartner.</span></p>
+                  <p><span>023409865477531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u108" class="ax_default _默认样式">
-                <img id="u108_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u108_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u108_text" class="text ">
-                  <p><span>023409865487531</span></p>
+                  <p><span>This phone number has not register PalmPartner.</span></p>
                 </div>
               </div>
 
@@ -908,15 +908,15 @@
               <div id="u109" class="ax_default _默认样式">
                 <img id="u109_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u109_text" class="text ">
-                  <p><span>Account has been Suspend/Unsuspend.</span></p>
+                  <p><span>023409865487531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u110" class="ax_default _默认样式">
-                <img id="u110_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u110_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u110_text" class="text ">
-                  <p><span>023409865497531</span></p>
+                  <p><span>Account has been Suspend/Unsuspend.</span></p>
                 </div>
               </div>
 
@@ -924,15 +924,15 @@
               <div id="u111" class="ax_default _默认样式">
                 <img id="u111_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u111_text" class="text ">
-                  <p><span>Phone Number is wrong.</span></p>
+                  <p><span>023409865497531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u112" class="ax_default _默认样式">
-                <img id="u112_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u112_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u112_text" class="text ">
-                  <p><span>023409865507531</span></p>
+                  <p><span>Phone Number is wrong.</span></p>
                 </div>
               </div>
 
@@ -940,15 +940,15 @@
               <div id="u113" class="ax_default _默认样式">
                 <img id="u113_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u113_text" class="text ">
-                  <p><span>This phone number has not register PalmPartner.</span></p>
+                  <p><span>023409865507531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u114" class="ax_default _默认样式">
-                <img id="u114_img" class="img " src="images/11_24/u98.png"/>
+                <img id="u114_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u114_text" class="text ">
-                  <p><span>023409865517531</span></p>
+                  <p><span>This phone number has not register PalmPartner.</span></p>
                 </div>
               </div>
 
@@ -956,15 +956,15 @@
               <div id="u115" class="ax_default _默认样式">
                 <img id="u115_img" class="img " src="images/11_24/u99.png"/>
                 <div id="u115_text" class="text ">
-                  <p><span>Account has been Suspend/Unsuspend.</span></p>
+                  <p><span>023409865517531</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (单元格) -->
               <div id="u116" class="ax_default _默认样式">
-                <img id="u116_img" class="img " src="images/11_24/u116.png"/>
+                <img id="u116_img" class="img " src="images/11_24/u100.png"/>
                 <div id="u116_text" class="text ">
-                  <p><span>023409865527531</span></p>
+                  <p><span>Account has been Suspend/Unsuspend.</span></p>
                 </div>
               </div>
 
@@ -972,6 +972,14 @@
               <div id="u117" class="ax_default _默认样式">
                 <img id="u117_img" class="img " src="images/11_24/u117.png"/>
                 <div id="u117_text" class="text ">
+                  <p><span>023409865527531</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u118" class="ax_default _默认样式">
+                <img id="u118_img" class="img " src="images/11_24/u118.png"/>
+                <div id="u118_text" class="text ">
                   <p><span>Phone Number is wrong.</span></p>
                 </div>
               </div>
@@ -980,21 +988,13 @@
             <!-- Unnamed (精简分页) -->
 
             <!-- Unnamed (组合) -->
-            <div id="u119" class="ax_default" data-left="229" data-top="345" data-width="311" data-height="35">
+            <div id="u120" class="ax_default" data-left="229" data-top="345" data-width="311" data-height="35">
 
               <!-- Unnamed (矩形) -->
-              <div id="u120" class="ax_default _默认样式1 selected">
-                <div id="u120_div" class="selected"></div>
-                <div id="u120_text" class="text ">
-                  <p><span>1</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (矩形) -->
-              <div id="u121" class="ax_default _默认样式1">
-                <div id="u121_div" class=""></div>
+              <div id="u121" class="ax_default _默认样式1 selected">
+                <div id="u121_div" class="selected"></div>
                 <div id="u121_text" class="text ">
-                  <p><span>2</span></p>
+                  <p><span>1</span></p>
                 </div>
               </div>
 
@@ -1002,7 +1002,7 @@
               <div id="u122" class="ax_default _默认样式1">
                 <div id="u122_div" class=""></div>
                 <div id="u122_text" class="text ">
-                  <p><span>3</span></p>
+                  <p><span>2</span></p>
                 </div>
               </div>
 
@@ -1010,23 +1010,23 @@
               <div id="u123" class="ax_default _默认样式1">
                 <div id="u123_div" class=""></div>
                 <div id="u123_text" class="text ">
+                  <p><span>3</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u124" class="ax_default _默认样式1">
+                <div id="u124_div" class=""></div>
+                <div id="u124_text" class="text ">
                   <p><span>4</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u124" class="ax_default _默认样式1 disabled">
-                <div id="u124_div" class="disabled"></div>
-                <div id="u124_text" class="text ">
-                  <p><span></span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (矩形) -->
-              <div id="u125" class="ax_default _默认样式1">
-                <div id="u125_div" class=""></div>
+              <div id="u125" class="ax_default _默认样式1 disabled">
+                <div id="u125_div" class="disabled"></div>
                 <div id="u125_text" class="text ">
-                  <p><span>5</span></p>
+                  <p><span></span></p>
                 </div>
               </div>
 
@@ -1034,16 +1034,24 @@
               <div id="u126" class="ax_default _默认样式1">
                 <div id="u126_div" class=""></div>
                 <div id="u126_text" class="text ">
+                  <p><span>5</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u127" class="ax_default _默认样式1">
+                <div id="u127_div" class=""></div>
+                <div id="u127_text" class="text ">
                   <p><span></span></p>
                 </div>
               </div>
             </div>
-            <div id="u118" style="display:none; visibility:hidden;"></div>
+            <div id="u119" style="display:none; visibility:hidden;"></div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u127" class="ax_default _三级标题">
-              <div id="u127_div" class=""></div>
-              <div id="u127_text" class="text ">
+            <div id="u128" class="ax_default _三级标题">
+              <div id="u128_div" class=""></div>
+              <div id="u128_text" class="text ">
                 <p><span>Total:2310&nbsp; &nbsp; Successed:2210&nbsp; &nbsp; Failed:100</span></p>
               </div>
             </div>
@@ -1052,85 +1060,77 @@
       </div>
 
       <!-- Unnamed (表格) -->
-      <div id="u128" class="ax_default">
-
-        <!-- Unnamed (单元格) -->
-        <div id="u129" class="ax_default table_cell">
-          <img id="u129_img" class="img " src="images/11_24/u129.png"/>
-          <div id="u129_text" class="text ">
-            <p><span>Order No.</span></p>
-          </div>
-        </div>
+      <div id="u129" class="ax_default">
 
         <!-- Unnamed (单元格) -->
         <div id="u130" class="ax_default table_cell">
           <img id="u130_img" class="img " src="images/11_24/u130.png"/>
           <div id="u130_text" class="text ">
-            <p><span>Order Type</span></p>
+            <p><span>Order No.</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u131" class="ax_default table_cell">
-          <img id="u131_img" class="img " src="images/11_24/u130.png"/>
+          <img id="u131_img" class="img " src="images/11_24/u131.png"/>
           <div id="u131_text" class="text ">
-            <p><span>Pos SN</span></p>
+            <p><span>Order Type</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u132" class="ax_default table_cell">
-          <img id="u132_img" class="img " src="images/11_24/u130.png"/>
+          <img id="u132_img" class="img " src="images/11_24/u131.png"/>
           <div id="u132_text" class="text ">
-            <p><span>Pos Type</span></p>
+            <p><span>Pos SN</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u133" class="ax_default table_cell">
-          <img id="u133_img" class="img " src="images/11_24/u130.png"/>
+          <img id="u133_img" class="img " src="images/11_24/u131.png"/>
           <div id="u133_text" class="text ">
-            <p><span>Status</span></p>
+            <p><span>Pos Type</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u134" class="ax_default table_cell">
-          <img id="u134_img" class="img " src="images/11_24/u130.png"/>
+          <img id="u134_img" class="img " src="images/11_24/u131.png"/>
           <div id="u134_text" class="text ">
-            <p><span>Agent Name</span></p>
+            <p><span>Status</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u135" class="ax_default table_cell">
-          <img id="u135_img" class="img " src="images/11_24/u130.png"/>
+          <img id="u135_img" class="img " src="images/11_24/u131.png"/>
           <div id="u135_text" class="text ">
-            <p><span>Agent Mobile Number</span></p>
+            <p><span>Agent Name</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u136" class="ax_default table_cell">
-          <img id="u136_img" class="img " src="images/11_24/u130.png"/>
+          <img id="u136_img" class="img " src="images/11_24/u131.png"/>
           <div id="u136_text" class="text ">
-            <p><span>Shop Name</span></p>
+            <p><span>Agent Mobile Number</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u137" class="ax_default table_cell">
-          <img id="u137_img" class="img " src="images/11_24/u130.png"/>
+          <img id="u137_img" class="img " src="images/11_24/u131.png"/>
           <div id="u137_text" class="text ">
-            <p><span>Location</span></p>
+            <p><span>Shop Name</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u138" class="ax_default table_cell">
-          <img id="u138_img" class="img " src="images/11_24/u138.png"/>
+          <img id="u138_img" class="img " src="images/11_24/u131.png"/>
           <div id="u138_text" class="text ">
-            <p><span>Update Time</span></p>
+            <p><span>Location</span></p>
           </div>
         </div>
 
@@ -1138,7 +1138,7 @@
         <div id="u139" class="ax_default table_cell">
           <img id="u139_img" class="img " src="images/11_24/u139.png"/>
           <div id="u139_text" class="text ">
-            <p><span>Operation</span></p>
+            <p><span>Update Time</span></p>
           </div>
         </div>
 
@@ -1146,7 +1146,7 @@
         <div id="u140" class="ax_default table_cell">
           <img id="u140_img" class="img " src="images/11_24/u140.png"/>
           <div id="u140_text" class="text ">
-            <p><span>AG02397589082345</span></p>
+            <p><span>Operation</span></p>
           </div>
         </div>
 
@@ -1154,71 +1154,71 @@
         <div id="u141" class="ax_default table_cell">
           <img id="u141_img" class="img " src="images/11_24/u141.png"/>
           <div id="u141_text" class="text ">
-            <p><span>Rent</span></p>
+            <p><span>AG02397589082345</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u142" class="ax_default table_cell">
-          <img id="u142_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u142_img" class="img " src="images/11_24/u142.png"/>
           <div id="u142_text" class="text ">
-            <p><span>PP20389579832</span></p>
+            <p><span>Rent</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u143" class="ax_default table_cell">
-          <img id="u143_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u143_img" class="img " src="images/11_24/u142.png"/>
           <div id="u143_text" class="text ">
-            <p><span>Smart POS</span></p>
+            <p><span>PP20389579832</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u144" class="ax_default table_cell">
-          <img id="u144_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u144_img" class="img " src="images/11_24/u142.png"/>
           <div id="u144_text" class="text ">
-            <p><span>Bound</span></p>
+            <p><span>Smart POS</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u145" class="ax_default table_cell">
-          <img id="u145_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u145_img" class="img " src="images/11_24/u142.png"/>
           <div id="u145_text" class="text ">
-            <p><span>zhang san test</span></p>
+            <p><span>Bound</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u146" class="ax_default table_cell">
-          <img id="u146_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u146_img" class="img " src="images/11_24/u142.png"/>
           <div id="u146_text" class="text ">
-            <p><span>023409865437531</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (单元格) -->
-        <div id="u147" class="ax_default table_cell">
-          <img id="u147_img" class="img " src="images/11_24/u141.png"/>
-          <div id="u147_text" class="text ">
             <p><span>zhang san test</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
+        <div id="u147" class="ax_default table_cell">
+          <img id="u147_img" class="img " src="images/11_24/u142.png"/>
+          <div id="u147_text" class="text ">
+            <p><span>023409865437531</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
         <div id="u148" class="ax_default table_cell">
-          <img id="u148_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u148_img" class="img " src="images/11_24/u142.png"/>
           <div id="u148_text" class="text ">
-            <p><span>Lagos Agege</span></p>
+            <p><span>zhang san test</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u149" class="ax_default table_cell">
-          <img id="u149_img" class="img " src="images/11_24/u149.png"/>
+          <img id="u149_img" class="img " src="images/11_24/u142.png"/>
           <div id="u149_text" class="text ">
-            <p><span>2021-10-14 13:37:52</span></p>
+            <p><span>Lagos Agege</span></p>
           </div>
         </div>
 
@@ -1226,15 +1226,15 @@
         <div id="u150" class="ax_default table_cell">
           <img id="u150_img" class="img " src="images/11_24/u150.png"/>
           <div id="u150_text" class="text ">
-            <p><span style="color:#AAAAAA;">Bind</span><span style="color:#000000;">&nbsp;&nbsp; </span><a id="u151" class="link"><span style="color:#0000FF;">Unbind</span></a><span style="color:#000000;">&nbsp; </span></p>
+            <p><span>2021-10-14 13:37:52</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
-        <div id="u152" class="ax_default table_cell">
-          <img id="u152_img" class="img " src="images/11_24/u140.png"/>
-          <div id="u152_text" class="text ">
-            <p><span>AG02397589082335</span></p>
+        <div id="u151" class="ax_default table_cell">
+          <img id="u151_img" class="img " src="images/11_24/u151.png"/>
+          <div id="u151_text" class="text ">
+            <p><span style="color:#AAAAAA;">Bind</span><span style="color:#000000;">&nbsp;&nbsp; </span><a id="u152" class="link"><span style="color:#0000FF;">Unbind</span></a><span style="color:#000000;">&nbsp; </span></p>
           </div>
         </div>
 
@@ -1242,45 +1242,45 @@
         <div id="u153" class="ax_default table_cell">
           <img id="u153_img" class="img " src="images/11_24/u141.png"/>
           <div id="u153_text" class="text ">
-            <p><span>Buy</span></p>
+            <p><span>AG02397589082335</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u154" class="ax_default table_cell">
-          <img id="u154_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u154_img" class="img " src="images/11_24/u142.png"/>
           <div id="u154_text" class="text ">
-            <p><span>PB2938570234</span></p>
+            <p><span>Buy</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u155" class="ax_default table_cell">
-          <img id="u155_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u155_img" class="img " src="images/11_24/u142.png"/>
           <div id="u155_text" class="text ">
-            <p><span>Smart POS</span></p>
+            <p><span>PB2938570234</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u156" class="ax_default table_cell">
-          <img id="u156_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u156_img" class="img " src="images/11_24/u142.png"/>
           <div id="u156_text" class="text ">
-            <p><span>Unbind</span></p>
+            <p><span>Smart POS</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u157" class="ax_default table_cell">
-          <img id="u157_img" class="img " src="images/11_24/u141.png"/>
-          <div id="u157_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
+          <img id="u157_img" class="img " src="images/11_24/u142.png"/>
+          <div id="u157_text" class="text ">
+            <p><span>Unbind</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u158" class="ax_default table_cell">
-          <img id="u158_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u158_img" class="img " src="images/11_24/u142.png"/>
           <div id="u158_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1288,7 +1288,7 @@
 
         <!-- Unnamed (单元格) -->
         <div id="u159" class="ax_default table_cell">
-          <img id="u159_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u159_img" class="img " src="images/11_24/u142.png"/>
           <div id="u159_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1296,7 +1296,7 @@
 
         <!-- Unnamed (单元格) -->
         <div id="u160" class="ax_default table_cell">
-          <img id="u160_img" class="img " src="images/11_24/u141.png"/>
+          <img id="u160_img" class="img " src="images/11_24/u142.png"/>
           <div id="u160_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1304,7 +1304,7 @@
 
         <!-- Unnamed (单元格) -->
         <div id="u161" class="ax_default table_cell">
-          <img id="u161_img" class="img " src="images/11_24/u149.png"/>
+          <img id="u161_img" class="img " src="images/11_24/u142.png"/>
           <div id="u161_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1313,16 +1313,16 @@
         <!-- Unnamed (单元格) -->
         <div id="u162" class="ax_default table_cell">
           <img id="u162_img" class="img " src="images/11_24/u150.png"/>
-          <div id="u162_text" class="text ">
-            <p><a id="u163" class="link"><span style="color:#0000FF;">Bind</span></a><span style="color:#000000;">&nbsp;&nbsp; </span><span style="color:#AAAAAA;">Unbind</span><span style="color:#000000;">&nbsp; </span></p>
+          <div id="u162_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
-        <div id="u164" class="ax_default table_cell">
-          <img id="u164_img" class="img " src="images/11_24/u164.png"/>
-          <div id="u164_text" class="text ">
-            <p><span>AG02397589082135</span></p>
+        <div id="u163" class="ax_default table_cell">
+          <img id="u163_img" class="img " src="images/11_24/u151.png"/>
+          <div id="u163_text" class="text ">
+            <p><a id="u164" class="link"><span style="color:#0000FF;">Bind</span></a><span style="color:#000000;">&nbsp;&nbsp; </span><span style="color:#AAAAAA;">Unbind</span><span style="color:#000000;">&nbsp; </span></p>
           </div>
         </div>
 
@@ -1330,45 +1330,45 @@
         <div id="u165" class="ax_default table_cell">
           <img id="u165_img" class="img " src="images/11_24/u165.png"/>
           <div id="u165_text" class="text ">
-            <p><span>Rent</span></p>
+            <p><span>AG02397589082135</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u166" class="ax_default table_cell">
-          <img id="u166_img" class="img " src="images/11_24/u165.png"/>
+          <img id="u166_img" class="img " src="images/11_24/u166.png"/>
           <div id="u166_text" class="text ">
-            <p><span>23476324</span></p>
+            <p><span>Rent</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u167" class="ax_default table_cell">
-          <img id="u167_img" class="img " src="images/11_24/u165.png"/>
+          <img id="u167_img" class="img " src="images/11_24/u166.png"/>
           <div id="u167_text" class="text ">
-            <p><span>Linux POS</span></p>
+            <p><span>23476324</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u168" class="ax_default table_cell">
-          <img id="u168_img" class="img " src="images/11_24/u165.png"/>
+          <img id="u168_img" class="img " src="images/11_24/u166.png"/>
           <div id="u168_text" class="text ">
-            <p><span>Unbind</span></p>
+            <p><span>Linux POS</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u169" class="ax_default table_cell">
-          <img id="u169_img" class="img " src="images/11_24/u165.png"/>
-          <div id="u169_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
+          <img id="u169_img" class="img " src="images/11_24/u166.png"/>
+          <div id="u169_text" class="text ">
+            <p><span>Unbind</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
         <div id="u170" class="ax_default table_cell">
-          <img id="u170_img" class="img " src="images/11_24/u165.png"/>
+          <img id="u170_img" class="img " src="images/11_24/u166.png"/>
           <div id="u170_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1376,7 +1376,7 @@
 
         <!-- Unnamed (单元格) -->
         <div id="u171" class="ax_default table_cell">
-          <img id="u171_img" class="img " src="images/11_24/u165.png"/>
+          <img id="u171_img" class="img " src="images/11_24/u166.png"/>
           <div id="u171_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1384,7 +1384,7 @@
 
         <!-- Unnamed (单元格) -->
         <div id="u172" class="ax_default table_cell">
-          <img id="u172_img" class="img " src="images/11_24/u165.png"/>
+          <img id="u172_img" class="img " src="images/11_24/u166.png"/>
           <div id="u172_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1392,7 +1392,7 @@
 
         <!-- Unnamed (单元格) -->
         <div id="u173" class="ax_default table_cell">
-          <img id="u173_img" class="img " src="images/11_24/u173.png"/>
+          <img id="u173_img" class="img " src="images/11_24/u166.png"/>
           <div id="u173_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
@@ -1401,35 +1401,33 @@
         <!-- Unnamed (单元格) -->
         <div id="u174" class="ax_default table_cell">
           <img id="u174_img" class="img " src="images/11_24/u174.png"/>
-          <div id="u174_text" class="text ">
-            <p><a id="u175" class="link"><span style="color:#0000FF;">Bind</span></a><span style="color:#000000;">&nbsp;&nbsp; </span><span style="color:#AAAAAA;">Unbind</span><span style="color:#000000;">&nbsp;&nbsp; </span></p>
+          <div id="u174_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u175" class="ax_default table_cell">
+          <img id="u175_img" class="img " src="images/11_24/u175.png"/>
+          <div id="u175_text" class="text ">
+            <p><a id="u176" class="link"><span style="color:#0000FF;">Bind</span></a><span style="color:#000000;">&nbsp;&nbsp; </span><span style="color:#AAAAAA;">Unbind</span><span style="color:#000000;">&nbsp;&nbsp; </span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (文本框) -->
-      <div id="u176" class="ax_default _默认样式">
-        <div id="u176_div" class=""></div>
-        <input id="u176_input" type="text" value="" class="u176_input" maxlength="20"/>
-      </div>
-
-      <!-- Unnamed (下拉列表) -->
-      <div id="u177" class="ax_default droplist">
+      <div id="u177" class="ax_default _默认样式">
         <div id="u177_div" class=""></div>
-        <select id="u177_input" class="u177_input">
-          <option class="u177_input_option" value="Status">Status</option>
-          <option class="u177_input_option" value="Bound">Bound</option>
-          <option class="u177_input_option" value="Unbind">Unbind</option>
-        </select>
+        <input id="u177_input" type="text" value="" class="u177_input" maxlength="20"/>
       </div>
 
       <!-- Unnamed (下拉列表) -->
       <div id="u178" class="ax_default droplist">
         <div id="u178_div" class=""></div>
         <select id="u178_input" class="u178_input">
-          <option class="u178_input_option" value="POS Type">POS Type</option>
-          <option class="u178_input_option" value="Smart POS">Smart POS</option>
-          <option class="u178_input_option" value="Linux POS">Linux POS</option>
+          <option class="u178_input_option" value="Status">Status</option>
+          <option class="u178_input_option" value="Bound">Bound</option>
+          <option class="u178_input_option" value="Unbind">Unbind</option>
         </select>
       </div>
 
@@ -1437,30 +1435,32 @@
       <div id="u179" class="ax_default droplist">
         <div id="u179_div" class=""></div>
         <select id="u179_input" class="u179_input">
-          <option class="u179_input_option" value="Order Type">Order Type</option>
-          <option class="u179_input_option" value="Buy">Buy</option>
-          <option class="u179_input_option" value="Rent">Rent</option>
+          <option class="u179_input_option" value="POS Type">POS Type</option>
+          <option class="u179_input_option" value="Smart POS">Smart POS</option>
+          <option class="u179_input_option" value="Linux POS">Linux POS</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u180" class="ax_default droplist">
+        <div id="u180_div" class=""></div>
+        <select id="u180_input" class="u180_input">
+          <option class="u180_input_option" value="Order Type">Order Type</option>
+          <option class="u180_input_option" value="Buy">Buy</option>
+          <option class="u180_input_option" value="Rent">Rent</option>
         </select>
       </div>
 
       <!-- Unnamed (精简分页) -->
 
       <!-- Unnamed (组合) -->
-      <div id="u181" class="ax_default" data-left="1181" data-top="4410" data-width="311" data-height="35">
+      <div id="u182" class="ax_default" data-left="1181" data-top="4410" data-width="311" data-height="35">
 
         <!-- Unnamed (矩形) -->
-        <div id="u182" class="ax_default _默认样式1 selected">
-          <div id="u182_div" class="selected"></div>
-          <div id="u182_text" class="text ">
-            <p><span>1</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (矩形) -->
-        <div id="u183" class="ax_default _默认样式1">
-          <div id="u183_div" class=""></div>
+        <div id="u183" class="ax_default _默认样式1 selected">
+          <div id="u183_div" class="selected"></div>
           <div id="u183_text" class="text ">
-            <p><span>2</span></p>
+            <p><span>1</span></p>
           </div>
         </div>
 
@@ -1468,7 +1468,7 @@
         <div id="u184" class="ax_default _默认样式1">
           <div id="u184_div" class=""></div>
           <div id="u184_text" class="text ">
-            <p><span>3</span></p>
+            <p><span>2</span></p>
           </div>
         </div>
 
@@ -1476,23 +1476,23 @@
         <div id="u185" class="ax_default _默认样式1">
           <div id="u185_div" class=""></div>
           <div id="u185_text" class="text ">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u186" class="ax_default _默认样式1">
+          <div id="u186_div" class=""></div>
+          <div id="u186_text" class="text ">
             <p><span>4</span></p>
           </div>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u186" class="ax_default _默认样式1 disabled">
-          <div id="u186_div" class="disabled"></div>
-          <div id="u186_text" class="text ">
-            <p><span></span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (矩形) -->
-        <div id="u187" class="ax_default _默认样式1">
-          <div id="u187_div" class=""></div>
+        <div id="u187" class="ax_default _默认样式1 disabled">
+          <div id="u187_div" class="disabled"></div>
           <div id="u187_text" class="text ">
-            <p><span>5</span></p>
+            <p><span></span></p>
           </div>
         </div>
 
@@ -1500,90 +1500,90 @@
         <div id="u188" class="ax_default _默认样式1">
           <div id="u188_div" class=""></div>
           <div id="u188_text" class="text ">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u189" class="ax_default _默认样式1">
+          <div id="u189_div" class=""></div>
+          <div id="u189_text" class="text ">
             <p><span></span></p>
           </div>
         </div>
       </div>
-      <div id="u180" style="display:none; visibility:hidden;"></div>
+      <div id="u181" style="display:none; visibility:hidden;"></div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u189" class="ax_default primary_button">
-        <div id="u189_div" class=""></div>
-        <div id="u189_text" class="text ">
+      <div id="u190" class="ax_default primary_button">
+        <div id="u190_div" class=""></div>
+        <div id="u190_text" class="text ">
           <p><span>Query</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u190" class="ax_default box_3">
-        <div id="u190_div" class=""></div>
-        <div id="u190_text" class="text ">
+      <div id="u191" class="ax_default box_3">
+        <div id="u191_div" class=""></div>
+        <div id="u191_text" class="text ">
           <p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;font-weight:700;">改动说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">1. 去掉了设备型号展示，仅保留设备类型（智能POS、传统POS）。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">2. 修改了绑定设备的按钮位置以及机制，将原绑定入口移动到每台设备的操作栏中进行操作，且绑定时会自动携带设备的SN信息进入绑定界面。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">3. 增加解绑按钮，操作后将解除设备与Agent的绑定关系，与我方在OMS中操作解绑的结果一致。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;color:#FFFFFF;">冻结设备功能需要厂商开放接口支持，如果Aggregator有冻结设备的需要可以先联系我们的工作人员并提供欲冻结设备清单，由我方人员到厂商提供的平台进行冻结操作。</span></p>
         </div>
       </div>
 
       <!-- 内容对话框 (动态面板) -->
-      <div id="u191" class="ax_default" data-label="内容对话框">
-        <div id="u191_state0" class="panel_state" data-label="内容标题" style="">
-          <div id="u191_state0_content" class="panel_state_content">
+      <div id="u192" class="ax_default" data-label="内容对话框">
+        <div id="u192_state0" class="panel_state" data-label="内容标题" style="">
+          <div id="u192_state0_content" class="panel_state_content">
 
             <!-- Unnamed (矩形) -->
-            <div id="u192" class="ax_default _默认样式">
-              <div id="u192_div" class=""></div>
-              <div id="u192_text" class="text " style="display:none; visibility: hidden">
+            <div id="u193" class="ax_default _默认样式">
+              <div id="u193_div" class=""></div>
+              <div id="u193_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u193" class="ax_default _默认样式">
-              <div id="u193_div" class=""></div>
-              <div id="u193_text" class="text ">
+            <div id="u194" class="ax_default _默认样式">
+              <div id="u194_div" class=""></div>
+              <div id="u194_text" class="text ">
                 <p><span>Bind Device</span></p>
               </div>
             </div>
 
             <!-- 关闭 (矩形) -->
-            <div id="u194" class="ax_default _默认样式" data-label="关闭" title="关闭">
-              <div id="u194_div" class=""></div>
-              <div id="u194_text" class="text ">
+            <div id="u195" class="ax_default _默认样式" data-label="关闭" title="关闭">
+              <div id="u195_div" class=""></div>
+              <div id="u195_text" class="text ">
                 <p><span></span></p>
               </div>
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u195" class="ax_default" data-left="0" data-top="539" data-width="800" data-height="60">
+            <div id="u196" class="ax_default" data-left="0" data-top="539" data-width="800" data-height="60">
 
               <!-- Unnamed (矩形) -->
-              <div id="u196" class="ax_default _默认样式">
-                <div id="u196_div" class=""></div>
-                <div id="u196_text" class="text " style="display:none; visibility: hidden">
+              <div id="u197" class="ax_default _默认样式">
+                <div id="u197_div" class=""></div>
+                <div id="u197_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u197" class="ax_default _默认样式">
-                <div id="u197_div" class=""></div>
-                <div id="u197_text" class="text ">
+              <div id="u198" class="ax_default _默认样式">
+                <div id="u198_div" class=""></div>
+                <div id="u198_text" class="text ">
                   <p><span>Submit</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u198" class="ax_default _默认样式">
-                <img id="u198_img" class="img " src="images/11_24/u7.svg"/>
-                <div id="u198_text" class="text ">
+              <div id="u199" class="ax_default _默认样式">
+                <img id="u199_img" class="img " src="images/11_24/u7.svg"/>
+                <div id="u199_text" class="text ">
                   <p><span>Cancel</span></p>
                 </div>
-              </div>
-            </div>
-
-            <!-- Unnamed (矩形) -->
-            <div id="u199" class="ax_default _默认样式">
-              <div id="u199_div" class=""></div>
-              <div id="u199_text" class="text ">
-                <p><span style="color:#FF3B30;">*</span><span style="color:#666666;"> Device SN：</span></p>
               </div>
             </div>
 
@@ -1591,7 +1591,7 @@
             <div id="u200" class="ax_default _默认样式">
               <div id="u200_div" class=""></div>
               <div id="u200_text" class="text ">
-                <p><span style="color:#FF3B30;">*</span><span style="color:#666666;"> Device Type：</span></p>
+                <p><span style="color:#FF3B30;">*</span><span style="color:#666666;"> Device SN：</span></p>
               </div>
             </div>
 
@@ -1599,7 +1599,7 @@
             <div id="u201" class="ax_default _默认样式">
               <div id="u201_div" class=""></div>
               <div id="u201_text" class="text ">
-                <p><span style="color:#FF3B30;">*</span><span style="color:#666666;"> Agent Phone：</span></p>
+                <p><span style="color:#FF3B30;">*</span><span style="color:#666666;"> Device Type：</span></p>
               </div>
             </div>
 
@@ -1611,48 +1611,46 @@
               </div>
             </div>
 
+            <!-- Unnamed (矩形) -->
+            <div id="u203" class="ax_default _默认样式">
+              <div id="u203_div" class=""></div>
+              <div id="u203_text" class="text ">
+                <p><span style="color:#FF3B30;">*</span><span style="color:#666666;"> Agent Phone：</span></p>
+              </div>
+            </div>
+
             <!-- Unnamed (文本框) -->
-            <div id="u203" class="ax_default _默认样式 disabled">
-              <div id="u203_div" class="disabled"></div>
-              <input id="u203_input" type="text" value="PP238759283453" class="u203_input" disabled maxlength="20"/>
+            <div id="u204" class="ax_default _默认样式 disabled">
+              <div id="u204_div" class="disabled"></div>
+              <input id="u204_input" type="text" value="PP238759283453" class="u204_input" disabled maxlength="20"/>
             </div>
 
             <!-- Unnamed (下拉列表) -->
-            <div id="u204" class="ax_default droplist disabled">
-              <div id="u204_div" class="disabled"></div>
-              <select id="u204_input" class="u204_input" disabled>
-                <option class="u204_input_option" value="Smart POS">Smart POS</option>
-                <option class="u204_input_option" value="Linux POS">Linux POS</option>
+            <div id="u205" class="ax_default droplist disabled">
+              <div id="u205_div" class="disabled"></div>
+              <select id="u205_input" class="u205_input" disabled>
+                <option class="u205_input_option" value="Smart POS">Smart POS</option>
+                <option class="u205_input_option" value="Linux POS">Linux POS</option>
               </select>
             </div>
 
             <!-- Unnamed (下拉列表) -->
-            <div id="u205" class="ax_default droplist">
-              <div id="u205_div" class=""></div>
-              <select id="u205_input" class="u205_input">
-                <option class="u205_input_option" value="Shop Name">Shop Name</option>
-                <option class="u205_input_option" value="Shop Name 1">Shop Name 1</option>
+            <div id="u206" class="ax_default droplist">
+              <div id="u206_div" class=""></div>
+              <select id="u206_input" class="u206_input">
+                <option class="u206_input_option" value="Shop Name">Shop Name</option>
+                <option class="u206_input_option" value="Shop Name 1">Shop Name 1</option>
               </select>
             </div>
 
             <!-- Unnamed (图片 ) -->
-            <div id="u206" class="ax_default _图片_">
-              <img id="u206_img" class="img " src="images/11_24/u206.png"/>
-              <div id="u206_text" class="text " style="display:none; visibility: hidden">
+            <div id="u207" class="ax_default _图片_">
+              <img id="u207_img" class="img " src="images/11_24/u207.png"/>
+              <div id="u207_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Unnamed (连接) -->
-      <div id="u207" class="ax_default _连接">
-        <img id="u207_seg0" class="img " src="images/11_24/u207_seg0.svg" alt="u207_seg0"/>
-        <img id="u207_seg1" class="img " src="images/11_24/u207_seg1.svg" alt="u207_seg1"/>
-        <img id="u207_seg2" class="img " src="images/11_24/u207_seg2.svg" alt="u207_seg2"/>
-        <div id="u207_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
         </div>
       </div>
 
@@ -1660,119 +1658,129 @@
       <div id="u208" class="ax_default _连接">
         <img id="u208_seg0" class="img " src="images/11_24/u208_seg0.svg" alt="u208_seg0"/>
         <img id="u208_seg1" class="img " src="images/11_24/u208_seg1.svg" alt="u208_seg1"/>
+        <img id="u208_seg2" class="img " src="images/11_24/u208_seg2.svg" alt="u208_seg2"/>
         <div id="u208_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
-      <!-- Unnamed (图片 ) -->
-      <div id="u209" class="ax_default _图片_">
-        <img id="u209_img" class="img " src="images/11_24/u209.png"/>
+      <!-- Unnamed (连接) -->
+      <div id="u209" class="ax_default _连接">
+        <img id="u209_seg0" class="img " src="images/11_24/u209_seg0.svg" alt="u209_seg0"/>
+        <img id="u209_seg1" class="img " src="images/11_24/u209_seg1.svg" alt="u209_seg1"/>
         <div id="u209_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
-      <!-- Unnamed (矩形) -->
-      <div id="u210" class="ax_default _三级标题">
-        <div id="u210_div" class=""></div>
-        <div id="u210_text" class="text ">
-          <p><span>设备绑定流程图</span></p>
-        </div>
-      </div>
-
       <!-- Unnamed (图片 ) -->
-      <div id="u211" class="ax_default _图片_">
-        <img id="u211_img" class="img " src="images/11_24/u211.png"/>
-        <div id="u211_text" class="text " style="display:none; visibility: hidden">
+      <div id="u210" class="ax_default _图片_">
+        <img id="u210_img" class="img " src="images/11_24/u210.png"/>
+        <div id="u210_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u212" class="ax_default label">
-        <div id="u212_div" class=""></div>
-        <div id="u212_text" class="text ">
+      <div id="u211" class="ax_default _三级标题">
+        <div id="u211_div" class=""></div>
+        <div id="u211_text" class="text ">
+          <p><span>设备绑定流程图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u212" class="ax_default _图片_">
+        <img id="u212_img" class="img " src="images/11_24/u212.png"/>
+        <div id="u212_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u213" class="ax_default label">
+        <div id="u213_div" class=""></div>
+        <div id="u213_text" class="text ">
           <p><span>进入正常的2步创建Partner账号步骤</span></p>
         </div>
       </div>
 
       <!-- 内容对话框 (动态面板) -->
-      <div id="u213" class="ax_default" data-label="内容对话框">
-        <div id="u213_state0" class="panel_state" data-label="内容标题" style="">
-          <div id="u213_state0_content" class="panel_state_content">
+      <div id="u214" class="ax_default" data-label="内容对话框">
+        <div id="u214_state0" class="panel_state" data-label="内容标题" style="">
+          <div id="u214_state0_content" class="panel_state_content">
 
             <!-- Unnamed (矩形) -->
-            <div id="u214" class="ax_default _默认样式">
-              <div id="u214_div" class=""></div>
-              <div id="u214_text" class="text " style="display:none; visibility: hidden">
+            <div id="u215" class="ax_default _默认样式">
+              <div id="u215_div" class=""></div>
+              <div id="u215_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u215" class="ax_default _默认样式">
-              <div id="u215_div" class=""></div>
-              <div id="u215_text" class="text ">
+            <div id="u216" class="ax_default _默认样式">
+              <div id="u216_div" class=""></div>
+              <div id="u216_text" class="text ">
                 <p><span>Continue to Create Account</span></p>
               </div>
             </div>
 
             <!-- 关闭 (矩形) -->
-            <div id="u216" class="ax_default _默认样式" data-label="关闭" title="关闭">
-              <div id="u216_div" class=""></div>
-              <div id="u216_text" class="text ">
+            <div id="u217" class="ax_default _默认样式" data-label="关闭" title="关闭">
+              <div id="u217_div" class=""></div>
+              <div id="u217_text" class="text ">
                 <p><span></span></p>
               </div>
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u217" class="ax_default" data-left="0" data-top="240" data-width="450" data-height="60">
+            <div id="u218" class="ax_default" data-left="0" data-top="240" data-width="450" data-height="60">
 
               <!-- Unnamed (矩形) -->
-              <div id="u218" class="ax_default _默认样式">
-                <div id="u218_div" class=""></div>
-                <div id="u218_text" class="text " style="display:none; visibility: hidden">
+              <div id="u219" class="ax_default _默认样式">
+                <div id="u219_div" class=""></div>
+                <div id="u219_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u219" class="ax_default _默认样式">
-                <div id="u219_div" class=""></div>
-                <div id="u219_text" class="text ">
+              <div id="u220" class="ax_default _默认样式">
+                <div id="u220_div" class=""></div>
+                <div id="u220_text" class="text ">
                   <p><span>Submit</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u220" class="ax_default _默认样式">
-                <img id="u220_img" class="img " src="images/11_24/u7.svg"/>
-                <div id="u220_text" class="text ">
+              <div id="u221" class="ax_default _默认样式">
+                <img id="u221_img" class="img " src="images/11_24/u7.svg"/>
+                <div id="u221_text" class="text ">
                   <p><span>Cancel</span></p>
                 </div>
               </div>
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u221" class="ax_default _默认样式">
-              <div id="u221_div" class=""></div>
-              <div id="u221_text" class="text ">
+            <div id="u222" class="ax_default _默认样式">
+              <div id="u222_div" class=""></div>
+              <div id="u222_text" class="text ">
                 <p><span style="color:#FF3B30;">*</span><span style="color:#666666;"> Agent Phone Number </span></p>
               </div>
             </div>
 
             <!-- Unnamed (文本框) -->
-            <div id="u222" class="ax_default _默认样式">
-              <div id="u222_div" class=""></div>
-              <input id="u222_input" type="password" value="" class="u222_input" maxlength="20"/>
+            <div id="u223" class="ax_default _默认样式">
+              <div id="u223_div" class=""></div>
+              <input id="u223_input" type="password" value="" class="u223_input" maxlength="20"/>
             </div>
 
             <!-- Unnamed (下拉列表) -->
-            <div id="u223" class="ax_default droplist">
-              <div id="u223_div" class=""></div>
-              <select id="u223_input" class="u223_input">
-                <option class="u223_input_option" value="+234">+234</option>
+            <div id="u224" class="ax_default droplist">
+              <div id="u224_div" class=""></div>
+              <select id="u224_input" class="u224_input">
+                <option class="u224_input_option" value="+234">+234</option>
               </select>
             </div>
           </div>
@@ -1780,18 +1788,10 @@
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u224" class="ax_default box_3">
-        <div id="u224_div" class=""></div>
-        <div id="u224_text" class="text ">
+      <div id="u225" class="ax_default box_3">
+        <div id="u225_div" class=""></div>
+        <div id="u225_text" class="text ">
           <p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;font-weight:700;">手机号校验说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">1. 输入的手机号是否是Partner账号，否则提示：“This phone is not a PalmPartner account，please confirm！”</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">2.输入的手机号是否是Aggregator创建的，不限定创建的Aggregator，如不是Aggregator创建的账号，则提示：“This account is not create by Aggregator，please onboarding in PalmPartner app！”</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">3. 输入的手机号的等级是否是L2，如不是则提示：“This account is L3 now，you can bind POS to this account.”</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (图片 ) -->
-      <div id="u225" class="ax_default _图片_">
-        <img id="u225_img" class="img " src="images/11_24/u225.png"/>
-        <div id="u225_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
         </div>
       </div>
 
@@ -1803,134 +1803,130 @@
         </div>
       </div>
 
-      <!-- Unnamed (连接) -->
-      <div id="u227" class="ax_default _连接">
-        <img id="u227_seg0" class="img " src="images/11_24/u227_seg0.svg" alt="u227_seg0"/>
-        <img id="u227_seg1" class="img " src="images/11_24/u227_seg1.svg" alt="u227_seg1"/>
-        <img id="u227_seg2" class="img " src="images/11_24/u227_seg2.svg" alt="u227_seg2"/>
-        <img id="u227_seg3" class="img " src="images/11_24/u227_seg3.svg" alt="u227_seg3"/>
-        <img id="u227_seg4" class="img " src="images/11_24/u227_seg4.svg" alt="u227_seg4"/>
-        <img id="u227_seg5" class="img " src="images/11_24/u227_seg5.svg" alt="u227_seg5"/>
+      <!-- Unnamed (图片 ) -->
+      <div id="u227" class="ax_default _图片_">
+        <img id="u227_img" class="img " src="images/11_24/u227.png"/>
         <div id="u227_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
+      <!-- Unnamed (连接) -->
+      <div id="u228" class="ax_default _连接">
+        <img id="u228_seg0" class="img " src="images/11_24/u228_seg0.svg" alt="u228_seg0"/>
+        <img id="u228_seg1" class="img " src="images/11_24/u228_seg1.svg" alt="u228_seg1"/>
+        <img id="u228_seg2" class="img " src="images/11_24/u228_seg2.svg" alt="u228_seg2"/>
+        <img id="u228_seg3" class="img " src="images/11_24/u228_seg3.svg" alt="u228_seg3"/>
+        <img id="u228_seg4" class="img " src="images/11_24/u228_seg4.svg" alt="u228_seg4"/>
+        <img id="u228_seg5" class="img " src="images/11_24/u228_seg5.svg" alt="u228_seg5"/>
+        <div id="u228_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
       <!-- Unnamed (矩形) -->
-      <div id="u228" class="ax_default label">
-        <div id="u228_div" class=""></div>
-        <div id="u228_text" class="text ">
+      <div id="u229" class="ax_default label">
+        <div id="u229_div" class=""></div>
+        <div id="u229_text" class="text ">
           <p><span>通过校验的直接进入第二步骤</span></p>
         </div>
       </div>
 
       <!-- 内容对话框 (动态面板) -->
-      <div id="u229" class="ax_default" data-label="内容对话框">
-        <div id="u229_state0" class="panel_state" data-label="内容标题" style="">
-          <div id="u229_state0_content" class="panel_state_content">
+      <div id="u230" class="ax_default" data-label="内容对话框">
+        <div id="u230_state0" class="panel_state" data-label="内容标题" style="">
+          <div id="u230_state0_content" class="panel_state_content">
 
             <!-- Unnamed (矩形) -->
-            <div id="u230" class="ax_default _默认样式">
-              <div id="u230_div" class=""></div>
-              <div id="u230_text" class="text " style="display:none; visibility: hidden">
+            <div id="u231" class="ax_default _默认样式">
+              <div id="u231_div" class=""></div>
+              <div id="u231_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (矩形) -->
-            <div id="u231" class="ax_default _默认样式">
-              <div id="u231_div" class=""></div>
-              <div id="u231_text" class="text ">
+            <div id="u232" class="ax_default _默认样式">
+              <div id="u232_div" class=""></div>
+              <div id="u232_text" class="text ">
                 <p><span>Input Agent</span></p>
               </div>
             </div>
 
             <!-- 关闭 (矩形) -->
-            <div id="u232" class="ax_default _默认样式" data-label="关闭" title="关闭">
-              <div id="u232_div" class=""></div>
-              <div id="u232_text" class="text ">
+            <div id="u233" class="ax_default _默认样式" data-label="关闭" title="关闭">
+              <div id="u233_div" class=""></div>
+              <div id="u233_text" class="text ">
                 <p><span></span></p>
               </div>
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u233" class="ax_default" data-left="0" data-top="240" data-width="450" data-height="60">
+            <div id="u234" class="ax_default" data-left="0" data-top="240" data-width="450" data-height="60">
 
               <!-- Unnamed (矩形) -->
-              <div id="u234" class="ax_default _默认样式">
-                <div id="u234_div" class=""></div>
-                <div id="u234_text" class="text " style="display:none; visibility: hidden">
+              <div id="u235" class="ax_default _默认样式">
+                <div id="u235_div" class=""></div>
+                <div id="u235_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u235" class="ax_default _默认样式">
-                <div id="u235_div" class=""></div>
-                <div id="u235_text" class="text ">
+              <div id="u236" class="ax_default _默认样式">
+                <div id="u236_div" class=""></div>
+                <div id="u236_text" class="text ">
                   <p><span>Next</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u236" class="ax_default _默认样式">
-                <img id="u236_img" class="img " src="images/11_24/u7.svg"/>
-                <div id="u236_text" class="text ">
+              <div id="u237" class="ax_default _默认样式">
+                <img id="u237_img" class="img " src="images/11_24/u7.svg"/>
+                <div id="u237_text" class="text ">
                   <p><span>Cancel</span></p>
                 </div>
               </div>
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u237" class="ax_default" data-left="28" data-top="100" data-width="240" data-height="80">
+            <div id="u238" class="ax_default" data-left="28" data-top="100" data-width="240" data-height="80">
 
               <!-- Unnamed (组合) -->
-              <div id="u238" class="ax_default" data-left="28" data-top="100" data-width="240" data-height="40">
+              <div id="u239" class="ax_default" data-left="28" data-top="100" data-width="240" data-height="40">
 
                 <!-- Unnamed (单选按钮) -->
-                <div id="u239" class="ax_default _默认样式 selected" selectiongroup="单选项1">
-                  <label id="u239_input_label" for="u239_input" style="position: absolute; left: 0px;">
-                    <img id="u239_img" class="img " src="images/11_24/u239_selected.svg"/>
-                    <div id="u239_text" class="text ">
+                <div id="u240" class="ax_default _默认样式 selected" selectiongroup="单选项1">
+                  <label id="u240_input_label" for="u240_input" style="position: absolute; left: 0px;">
+                    <img id="u240_img" class="img " src="images/11_24/u240_selected.svg"/>
+                    <div id="u240_text" class="text ">
                       <p><span>Create a New Account</span></p>
                     </div>
                   </label>
-                  <input id="u239_input" type="radio" value="radio" name="单选项1"/>
+                  <input id="u240_input" type="radio" value="radio" name="单选项1"/>
                 </div>
               </div>
 
               <!-- Unnamed (组合) -->
-              <div id="u240" class="ax_default" data-left="28" data-top="140" data-width="240" data-height="40">
+              <div id="u241" class="ax_default" data-left="28" data-top="140" data-width="240" data-height="40">
 
                 <!-- Unnamed (单选按钮) -->
-                <div id="u241" class="ax_default _默认样式" selectiongroup="单选项1">
-                  <label id="u241_input_label" for="u241_input" style="position: absolute; left: 0px;">
-                    <img id="u241_img" class="img " src="images/11_24/u241.svg"/>
-                    <div id="u241_text" class="text ">
+                <div id="u242" class="ax_default _默认样式" selectiongroup="单选项1">
+                  <label id="u242_input_label" for="u242_input" style="position: absolute; left: 0px;">
+                    <img id="u242_img" class="img " src="images/11_24/u242.svg"/>
+                    <div id="u242_text" class="text ">
                       <p><span>Continue to Create Account</span></p>
                     </div>
                   </label>
-                  <input id="u241_input" type="radio" value="radio" name="单选项1"/>
+                  <input id="u242_input" type="radio" value="radio" name="单选项1"/>
                 </div>
               </div>
 
               <!-- Unnamed (组合) -->
-              <div id="u242" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+              <div id="u243" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Unnamed (连接) -->
-      <div id="u243" class="ax_default _连接">
-        <img id="u243_seg0" class="img " src="images/11_24/u243_seg0.svg" alt="u243_seg0"/>
-        <img id="u243_seg1" class="img " src="images/11_24/u243_seg1.svg" alt="u243_seg1"/>
-        <img id="u243_seg2" class="img " src="images/11_24/u243_seg2.svg" alt="u243_seg2"/>
-        <img id="u243_seg3" class="img " src="images/11_24/u243_seg3.svg" alt="u243_seg3"/>
-        <img id="u243_seg4" class="img " src="images/11_24/u243_seg4.svg" alt="u243_seg4"/>
-        <div id="u243_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
         </div>
       </div>
 
@@ -1939,6 +1935,8 @@
         <img id="u244_seg0" class="img " src="images/11_24/u244_seg0.svg" alt="u244_seg0"/>
         <img id="u244_seg1" class="img " src="images/11_24/u244_seg1.svg" alt="u244_seg1"/>
         <img id="u244_seg2" class="img " src="images/11_24/u244_seg2.svg" alt="u244_seg2"/>
+        <img id="u244_seg3" class="img " src="images/11_24/u244_seg3.svg" alt="u244_seg3"/>
+        <img id="u244_seg4" class="img " src="images/11_24/u244_seg4.svg" alt="u244_seg4"/>
         <div id="u244_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
@@ -1949,7 +1947,6 @@
         <img id="u245_seg0" class="img " src="images/11_24/u245_seg0.svg" alt="u245_seg0"/>
         <img id="u245_seg1" class="img " src="images/11_24/u245_seg1.svg" alt="u245_seg1"/>
         <img id="u245_seg2" class="img " src="images/11_24/u245_seg2.svg" alt="u245_seg2"/>
-        <img id="u245_seg3" class="img " src="images/11_24/u245_seg3.svg" alt="u245_seg3"/>
         <div id="u245_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
@@ -1966,30 +1963,33 @@
         </div>
       </div>
 
+      <!-- Unnamed (连接) -->
+      <div id="u247" class="ax_default _连接">
+        <img id="u247_seg0" class="img " src="images/11_24/u247_seg0.svg" alt="u247_seg0"/>
+        <img id="u247_seg1" class="img " src="images/11_24/u247_seg1.svg" alt="u247_seg1"/>
+        <img id="u247_seg2" class="img " src="images/11_24/u247_seg2.svg" alt="u247_seg2"/>
+        <img id="u247_seg3" class="img " src="images/11_24/u247_seg3.svg" alt="u247_seg3"/>
+        <div id="u247_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
       <!-- Unnamed (矩形) -->
-      <div id="u247" class="ax_default _一级标题">
-        <div id="u247_div" class=""></div>
-        <div id="u247_text" class="text ">
+      <div id="u248" class="ax_default _一级标题">
+        <div id="u248_div" class=""></div>
+        <div id="u248_text" class="text ">
           <p><span>需求价值说明：本期需求内容主要目标为解决目前Kili、OMS、Aggregator产品在日常使用中的一些使用中的不便之处，为功能或体验的优化类需求。</span></p>
         </div>
       </div>
 
       <!-- Unnamed (表格) -->
-      <div id="u248" class="ax_default">
-
-        <!-- Unnamed (单元格) -->
-        <div id="u249" class="ax_default table_cell">
-          <img id="u249_img" class="img " src="images/11_24/u249.png"/>
-          <div id="u249_text" class="text ">
-            <p><span>Phone Number</span></p>
-          </div>
-        </div>
+      <div id="u249" class="ax_default">
 
         <!-- Unnamed (单元格) -->
         <div id="u250" class="ax_default table_cell">
           <img id="u250_img" class="img " src="images/11_24/u250.png"/>
-          <div id="u250_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
+          <div id="u250_text" class="text ">
+            <p><span>Phone Number</span></p>
           </div>
         </div>
 
@@ -2000,12 +2000,20 @@
             <p></p>
           </div>
         </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u252" class="ax_default table_cell">
+          <img id="u252_img" class="img " src="images/11_24/u252.png"/>
+          <div id="u252_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u252" class="ax_default _三级标题">
-        <div id="u252_div" class=""></div>
-        <div id="u252_text" class="text ">
+      <div id="u253" class="ax_default _三级标题">
+        <div id="u253_div" class=""></div>
+        <div id="u253_text" class="text ">
           <p><span>模板内容格式</span></p>
         </div>
       </div>
