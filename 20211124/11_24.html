@@ -243,7 +243,7 @@
       <div id="u26" class="ax_default box_3">
         <div id="u26_div" class=""></div>
         <div id="u26_text" class="text ">
-          <p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;font-weight:700;">说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">1. 原接口调用时是通过memberID调用的，但前线、运营同学在使用时是不清楚memberID的，所以模板字段设计的是通过Phone Number来对状态进行更改。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">2. Operation，暂定使用suspend/unsuspend区分需要对账户状态进行的操作是哪一种。可以将suspend/unsuspend替换为数字代码进行区分，如使用0/1代挂起或解除挂起。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">3. Operation列可以考虑一下后续支持其他操作，如cap(只出不进)/uncap、freeze(冻结，不进不出)/unfreeze</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">4. </span><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;color:#D9001B;">导入数据限制3000条每次</span><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">。</span></p>
+          <p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;font-weight:700;">说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;"><br></span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">1. 原接口调用时是通过memberID调用的，但前线、运营同学在使用时是不清楚memberID的，所以模板字段设计的是通过Phone Number来对状态进行更改。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">2. Operation，暂定使用suspend/unsuspend区分需要对账户状态进行的操作是哪一种。可以将suspend/unsuspend替换为数字代码进行区分，如使用0/1代挂起或解除挂起。</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">3. Operation列可以考虑一下后续支持其他操作，如cap(只出不进)/uncap、freeze(冻结，不进不出)/unfreeze</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">4. </span><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;color:#D9001B;">导入数据限制3000条每次。超过3000条的不执行操作，并弹出提示：“Data count is over maximum(3000).”，提示样式如下方提示框所示</span><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;">。</span></p>
         </div>
       </div>
 
@@ -339,10 +339,10 @@
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u40" class="ax_default" data-left="100" data-top="70" data-width="200" data-height="40">
+            <div id="u40" class="ax_default" data-left="100" data-top="70" data-width="240" data-height="40">
 
               <!-- Unnamed (组合) -->
-              <div id="u41" class="ax_default" data-left="100" data-top="70" data-width="100" data-height="40">
+              <div id="u41" class="ax_default" data-left="100" data-top="70" data-width="120" data-height="40">
 
                 <!-- Unnamed (单选按钮) -->
                 <div id="u42" class="ax_default _默认样式 selected" selectiongroup="单选项1">
@@ -357,7 +357,7 @@
               </div>
 
               <!-- Unnamed (组合) -->
-              <div id="u43" class="ax_default" data-left="200" data-top="70" data-width="100" data-height="40">
+              <div id="u43" class="ax_default" data-left="220" data-top="70" data-width="120" data-height="40">
 
                 <!-- Unnamed (单选按钮) -->
                 <div id="u44" class="ax_default _默认样式" selectiongroup="单选项1">
@@ -2050,6 +2050,26 @@
         <div id="u257_div" class=""></div>
         <div id="u257_text" class="text ">
           <p><span>权限项位置说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u258" class="ax_default" data-left="2268" data-top="2460" data-width="300" data-height="40">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u259" class="ax_default _默认样式">
+          <div id="u259_div" class=""></div>
+          <div id="u259_text" class="text ">
+            <p><span>Data count is over maximum(3,000).</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u260" class="ax_default _默认样式">
+          <div id="u260_div" class=""></div>
+          <div id="u260_text" class="text ">
+            <p><span></span></p>
+          </div>
         </div>
       </div>
     </div>
