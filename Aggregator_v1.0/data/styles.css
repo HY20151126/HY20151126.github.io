@@ -99,6 +99,9 @@
 }
 .ellipse {
 }
+.paragraph {
+  text-align:left;
+}
 .image {
   color:#000000;
 }
@@ -135,7 +138,7 @@
   font-size:18px;
   color:#666666;
 }
-.paragraph {
+.paragraph1 {
   text-align:left;
 }
 .line {
