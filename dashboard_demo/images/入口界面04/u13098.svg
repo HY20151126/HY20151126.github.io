@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="90px" height="80px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 86 0  L 86 74  L 0 74  Z " fill-rule="evenodd" fill="black" id="path2169" />
+    <clipPath id="clip2170">
+      <use xlink:href="#path2169" />
+    </clipPath>
+    <defs>
+      <linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+        <stop offset="0%" stop-color="rgb(34,158,242)" stop-opacity="1" />
+        <stop offset="100%" stop-color="rgb(0,255,240)" stop-opacity="1" />
+      </linearGradient>
+    </defs>
+    <path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M64.454,74.011 L21.713,74.011 L-0.006,37.180 L21.886,0.089 L43.170,0.262 L23.103,34.314 L33.267,52.468 L55.159,52.468 L74.792,17.809 L85.999,37.007 L64.454,74.011 ZM60.806,0.175 L63.759,0.175 L73.142,16.593 L71.665,19.112 L60.806,0.175 ZM68.798,24.150 L54.985,0.175 L57.852,0.175 L70.275,21.631 L68.798,24.150 ZM66.279,28.581 L49.773,0.089 L52.118,0.089 L67.408,26.583 L66.279,28.581 ZM64.020,32.403 L62.543,32.403 L44.560,1.218 L45.255,0.002 L46.819,0.002 L64.802,31.100 L64.020,32.403 ZM59.676,32.403 L56.810,32.403 L41.781,6.343 L43.170,3.824 L59.676,32.403 ZM36.134,16.246 L37.437,13.900 L48.122,32.316 L45.603,32.316 L36.134,16.246 ZM53.856,32.316 L50.989,32.316 L38.914,11.381 L40.390,8.862 L53.856,32.316 Z" />
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter2171">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="916px" y="182px" width="90px" height="80px" filterUnits="userSpaceOnUse" id="filter2172">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0235294117647059  0 0 0 0 0.933333333333333  0 0 0 0 0.941176470588235  0 0 0 0.498039215686275 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget2173">
+      <g transform="matrix(0.810810810810811 0 0 0.810810810810811 926.135135135135 192 )" clip-path="url(#clip2170)" filter="url(#filter2171)">
+        <path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M64.454,74.011 L21.713,74.011 L-0.006,37.180 L21.886,0.089 L43.170,0.262 L23.103,34.314 L33.267,52.468 L55.159,52.468 L74.792,17.809 L85.999,37.007 L64.454,74.011 ZM60.806,0.175 L63.759,0.175 L73.142,16.593 L71.665,19.112 L60.806,0.175 ZM68.798,24.150 L54.985,0.175 L57.852,0.175 L70.275,21.631 L68.798,24.150 ZM66.279,28.581 L49.773,0.089 L52.118,0.089 L67.408,26.583 L66.279,28.581 ZM64.020,32.403 L62.543,32.403 L44.560,1.218 L45.255,0.002 L46.819,0.002 L64.802,31.100 L64.020,32.403 ZM59.676,32.403 L56.810,32.403 L41.781,6.343 L43.170,3.824 L59.676,32.403 ZM36.134,16.246 L37.437,13.900 L48.122,32.316 L45.603,32.316 L36.134,16.246 ZM53.856,32.316 L50.989,32.316 L38.914,11.381 L40.390,8.862 L53.856,32.316 Z" />
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -916 -182 )">
+    <use xlink:href="#widget2173" filter="url(#filter2172)" />
+    <use xlink:href="#widget2173" />
+  </g>
+</svg>

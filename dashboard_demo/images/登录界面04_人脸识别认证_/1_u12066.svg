@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="15px" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M 2 2  L 15 2  L 15 15  L 2 15  L 2 2  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" />
+    <path d="M 1 15  L 1 1  L 15 1  " stroke-width="2" stroke="#3cdcd2" fill="none" stroke-opacity="0.498039215686275" />
+  </g>
+</svg>

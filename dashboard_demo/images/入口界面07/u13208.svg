@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="130px" height="138px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 94 0  L 94 101  L 0 101  Z " fill-rule="evenodd" fill="black" id="path2194" />
+    <clipPath id="clip2195">
+      <use xlink:href="#path2194" />
+    </clipPath>
+    <defs>
+      <linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+        <stop offset="0%" stop-color="rgb(34,158,242)" stop-opacity="1" />
+        <stop offset="100%" stop-color="rgb(0,255,240)" stop-opacity="1" />
+      </linearGradient>
+    </defs>
+    <path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M79.009,54.668 L70.384,60.001 L60.432,50.002 L70.384,40.001 L79.009,45.335 C80.336,46.668 81.000,48.001 81.000,50.002 C81.000,52.001 80.336,53.334 79.009,54.668 ZM23.941,14.001 L65.740,38.001 L57.115,46.668 L23.941,14.001 ZM15.316,88.002 C13.326,87.335 11.999,85.335 11.999,82.668 L11.999,17.334 C11.999,15.334 13.326,13.334 15.316,12.001 L53.798,50.002 L15.316,88.002 ZM65.740,62.002 L23.941,86.001 L57.115,53.334 L65.740,62.002 Z" />
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter2196">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="578px" y="178px" width="130px" height="138px" filterUnits="userSpaceOnUse" id="filter2197">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0235294117647059  0 0 0 0 0.933333333333333  0 0 0 0 0.941176470588235  0 0 0 0.498039215686275 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget2198">
+      <g transform="matrix(1.16831683168317 0 0 1.16831683168317 588.089108910891 188 )" clip-path="url(#clip2195)" filter="url(#filter2196)">
+        <path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M79.009,54.668 L70.384,60.001 L60.432,50.002 L70.384,40.001 L79.009,45.335 C80.336,46.668 81.000,48.001 81.000,50.002 C81.000,52.001 80.336,53.334 79.009,54.668 ZM23.941,14.001 L65.740,38.001 L57.115,46.668 L23.941,14.001 ZM15.316,88.002 C13.326,87.335 11.999,85.335 11.999,82.668 L11.999,17.334 C11.999,15.334 13.326,13.334 15.316,12.001 L53.798,50.002 L15.316,88.002 ZM65.740,62.002 L23.941,86.001 L57.115,53.334 L65.740,62.002 Z" />
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -578 -178 )">
+    <use xlink:href="#widget2198" filter="url(#filter2197)" />
+    <use xlink:href="#widget2198" />
+  </g>
+</svg>

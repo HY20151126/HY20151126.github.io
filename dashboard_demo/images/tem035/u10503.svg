@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="485px" height="210px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="242.5" y1="0" x2="242.5" y2="210" id="LinearGradient1847">
+      <stop id="Stop1848" stop-color="#07e28d" stop-opacity="0.447058823529412" offset="0" />
+      <stop id="Stop1849" stop-color="#07e28d" stop-opacity="0.309803921568627" offset="0.41" />
+      <stop id="Stop1850" stop-color="#ffffff" stop-opacity="0" offset="0.82" />
+      <stop id="Stop1851" stop-color="#ffffff" stop-opacity="0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1389 -191 )">
+    <path d="M 1 207.844  L 1 129.693  C 0.328 129.693  18.418 110.156  27.825 103.643  C 37.232 97.131  45.191 100.025  53.875 102.196  C 62.558 104.367  99.164 29.863  117.552 29.834  C 139.454 29.8  174.958 114.497  196.184 118.115  C 217.41 121.734  255.135 41.892  275.299 45.754  C 307.815 51.982  346.212 -0.665  363.579 0.889  C 387.775 3.055  413.189 90.155  418.573 96.407  C 431.88 111.861  473.072 129.251  481.985 143.607  C 483.089 145.384  483.698 146.582  483.698 147.06  C 484.18 157.553  484.18 209.291  484.18 209.291  L 1 207.844  Z " fill-rule="nonzero" fill="url(#LinearGradient1847)" stroke="none" transform="matrix(1 0 0 1 1389 191 )" />
+  </g>
+</svg>

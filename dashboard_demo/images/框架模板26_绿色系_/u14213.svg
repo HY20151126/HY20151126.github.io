@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="51px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="530" y1="135.5" x2="30" y2="135.5" id="LinearGradient2331">
+      <stop id="Stop2332" stop-color="#00fff4" stop-opacity="0" offset="0" />
+      <stop id="Stop2333" stop-color="#00fff4" stop-opacity="0.298039215686275" offset="0.39" />
+      <stop id="Stop2334" stop-color="#00fff4" stop-opacity="0.298039215686275" offset="0.63" />
+      <stop id="Stop2335" stop-color="#000000" stop-opacity="0" offset="0.99" />
+      <stop id="Stop2336" stop-color="#000000" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="30" y1="135.5" x2="530" y2="135.5" id="LinearGradient2337">
+      <stop id="Stop2338" stop-color="#000000" stop-opacity="0" offset="0" />
+      <stop id="Stop2339" stop-color="#00fff4" offset="0.51" />
+      <stop id="Stop2340" stop-color="#000000" stop-opacity="0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1 0 0 1 -30 -110 )">
+    <path d="M 30 110.5  L 530 110.5  L 530 160.5  L 30 160.5  L 30 110.5  Z " fill-rule="nonzero" fill="url(#LinearGradient2331)" stroke="none" />
+    <path d="M 30 110.5  L 530 110.5  M 530 160.5  L 30 160.5  " stroke-width="1" stroke="url(#LinearGradient2337)" fill="none" />
+  </g>
+</svg>
