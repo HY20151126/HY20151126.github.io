@@ -4888,11 +4888,9 @@
   text-transform:none;
 }
 #u139 {
-  position:fixed;
-  left:50%;
-  margin-left:-225px;
-  top:50%;
-  margin-top:-125px;
+  position:absolute;
+  left:1490px;
+  top:16px;
 }
 #u139_state0 {
   position:relative;

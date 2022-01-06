@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="165px" height="10px" preserveAspectRatio="xMinYMid meet" viewBox="288 1331  165 8" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="165px" height="10px" preserveAspectRatio="xMinYMid meet" viewBox="288 1611  165 8" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip43">
-      <path d="M 351.5 1321  L 384.5 1321  L 384.5 1349  L 351.5 1349  Z M 288 1319  L 464 1319  L 464 1351  L 288 1351  Z " fill-rule="evenodd" />
+    <mask fill="white" id="clip54">
+      <path d="M 351.5 1601  L 384.5 1601  L 384.5 1629  L 351.5 1629  Z M 288 1599  L 464 1599  L 464 1631  L 288 1631  Z " fill-rule="evenodd" />
     </mask>
   </defs>
-  <path d="M 351.5 1335.5  L 288 1335.5  M 384.5 1335.5  L 447 1335.5  " stroke-width="1" stroke="#5e00c3" fill="none" />
-  <path d="M 441.3 1341.5  L 448 1335.5  L 441.3 1329.5  L 443.6 1335.5  L 441.3 1341.5  Z " fill-rule="nonzero" fill="#5e00c3" stroke="none" mask="url(#clip43)" />
+  <path d="M 351.5 1615.5  L 288 1615.5  M 384.5 1615.5  L 447 1615.5  " stroke-width="1" stroke="#5e00c3" fill="none" />
+  <path d="M 441.3 1621.5  L 448 1615.5  L 441.3 1609.5  L 443.6 1615.5  L 441.3 1621.5  Z " fill-rule="nonzero" fill="#5e00c3" stroke="none" mask="url(#clip54)" />
 </svg>
