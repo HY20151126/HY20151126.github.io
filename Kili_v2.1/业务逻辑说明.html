@@ -1,0 +1,692 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>业务逻辑说明</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/业务逻辑说明/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/业务逻辑说明/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u0" class="ax_default _形状">
+        <div id="u0_div" class=""></div>
+        <div id="u0_text" class="text ">
+          <p><span>数据源</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1" class="ax_default _形状">
+        <div id="u1_div" class=""></div>
+        <div id="u1_text" class="text ">
+          <p><span>数据源</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2" class="ax_default _形状">
+        <div id="u2_div" class=""></div>
+        <div id="u2_text" class="text ">
+          <p><span>用户提交设备更换维修申请</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3" class="ax_default _形状">
+        <div id="u3_div" class=""></div>
+        <div id="u3_text" class="text ">
+          <p><span>根据用户关联BD安排设备收取及更换</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4" class="ax_default _形状">
+        <div id="u4_div" class=""></div>
+        <div id="u4_text" class="text ">
+          <p><span>BD初步定损并发送定损支付单给用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u5" class="ax_default _形状">
+        <div id="u5_div" class=""></div>
+        <div id="u5_text" class="text ">
+          <p><span>用户通过定损支付单支付维修金，维修金进入专门的维修金Webmerchant账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u6" class="ax_default _形状">
+        <div id="u6_div" class=""></div>
+        <div id="u6_text" class="text ">
+          <p><span>支付完毕后BD解绑并回收旧设备</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7" class="ax_default _形状">
+        <div id="u7_div" class=""></div>
+        <div id="u7_text" class="text ">
+          <p><span>为Agent绑定新的设备</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8" class="ax_default _形状">
+        <div id="u8_div" class=""></div>
+        <div id="u8_text" class="text ">
+          <p><span>旧设备仓管入库进行整体检修</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9" class="ax_default _形状">
+        <div id="u9_div" class=""></div>
+        <div id="u9_text" class="text ">
+          <p><span>售后维修流程结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u10" class="ax_default _形状">
+        <div id="u10_div" class=""></div>
+        <div id="u10_text" class="text ">
+          <p><span>回收设备请求入库</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11" class="ax_default _形状">
+        <div id="u11_div" class=""></div>
+        <div id="u11_text" class="text ">
+          <p><span>1. 原始数据数仓落库</span></p><p><span>2. 运营完成业务系统数据报表规则配置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u12" class="ax_default _形状">
+        <div id="u12_div" class=""></div>
+        <div id="u12_text" class="text ">
+          <p><span>测算业务模块与报告规则模块定期同步测算规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u13" class="ax_default _形状">
+        <div id="u13_div" class=""></div>
+        <div id="u13_text" class="text ">
+          <p><span>测算模块根据读取的测算规则进行报表内容测算</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u14" class="ax_default _形状">
+        <div id="u14_div" class=""></div>
+        <div id="u14_text" class="text ">
+          <p><span>测算完成的结果根据设定的周期及时间点反馈给业务系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15" class="ax_default _形状">
+        <div id="u15_div" class=""></div>
+        <div id="u15_text" class="text ">
+          <p><span>业务系统根据测算业务模块反馈的测算报告数据展示数据报告</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u16" class="ax_default _形状">
+        <div id="u16_div" class=""></div>
+        <div id="u16_text" class="text ">
+          <p><span>数据报告产生完毕，运营根据产生的报告数据进行相应的业务操作</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17" class="ax_default _形状">
+        <div id="u17_div" class=""></div>
+        <div id="u17_text" class="text ">
+          <p><span>库管检查各项各项检修指标情况</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18" class="ax_default _形状">
+        <div id="u18_div" class=""></div>
+        <div id="u18_text" class="text ">
+          <p><span>在WMS系统入库时按照检修情况登记定损结果并选择设备入库状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19" class="ax_default _形状">
+        <div id="u19_div" class=""></div>
+        <div id="u19_text" class="text ">
+          <p><span>入库结束，定损信息落库</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20" class="ax_default _形状">
+        <div id="u20_div" class=""></div>
+        <div id="u20_text" class="text ">
+          <p><span>数据规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u21" class="ax_default _形状">
+        <div id="u21_div" class=""></div>
+        <div id="u21_text" class="text ">
+          <p><span>数据报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22" class="ax_default _形状">
+        <div id="u22_div" class=""></div>
+        <div id="u22_text" class="text ">
+          <p><span>产生回收名单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u23" class="ax_default _形状">
+        <div id="u23_div" class=""></div>
+        <div id="u23_text" class="text ">
+          <p><span>使用回收名单创建回收工单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24" class="ax_default _形状">
+        <div id="u24_div" class=""></div>
+        <div id="u24_text" class="text ">
+          <p><span>分配回收任务并通知用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u25" class="ax_default _形状">
+        <div id="u25_div" class=""></div>
+        <div id="u25_text" class="text ">
+          <p><span>仓储设备定损入库</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u26" class="ax_default _形状">
+        <div id="u26_div" class=""></div>
+        <div id="u26_text" class="text ">
+          <p><span>设备定损信息同步至回收工单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27" class="ax_default _形状">
+        <div id="u27_div" class=""></div>
+        <div id="u27_text" class="text ">
+          <p><span>回收工单定时任务筛选每日新增的已回收设备清单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u28" class="ax_default _形状">
+        <div id="u28_div" class=""></div>
+        <div id="u28_text" class="text ">
+          <p><span>系统关联创建退押金工单并提交审批</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29" class="ax_default _形状">
+        <div id="u29_div" class=""></div>
+        <div id="u29_text" class="text ">
+          <p><span>审批通过后调用退押金接口根据退押工单中的应退金额数据退押金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u30" class="ax_default _文本段落">
+        <div id="u30_div" class=""></div>
+        <div id="u30_text" class="text ">
+          <p><span>回收设备处理业务流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31" class="ax_default _文本段落">
+        <div id="u31_div" class=""></div>
+        <div id="u31_text" class="text ">
+          <p><span>返佣处理业务流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32" class="ax_default _文本段落">
+        <div id="u32_div" class=""></div>
+        <div id="u32_text" class="text ">
+          <p><span>售后维修业务流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33" class="ax_default _文本段落">
+        <div id="u33_div" class=""></div>
+        <div id="u33_text" class="text ">
+          <p><span>定损入库业务流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34" class="ax_default _文本段落">
+        <div id="u34_div" class=""></div>
+        <div id="u34_text" class="text ">
+          <p><span>数据报告产出业务流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u35" class="ax_default _连接">
+        <img id="u35_seg0" class="img " src="images/业务逻辑说明/u35_seg0.svg" alt="u35_seg0"/>
+        <img id="u35_seg1" class="img " src="images/业务逻辑说明/u35_seg1.svg" alt="u35_seg1"/>
+        <div id="u35_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36" class="ax_default _形状">
+        <div id="u36_div" class=""></div>
+        <div id="u36_text" class="text ">
+          <p><span>数据规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37" class="ax_default _形状">
+        <div id="u37_div" class=""></div>
+        <div id="u37_text" class="text ">
+          <p><span>数据报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38" class="ax_default _形状">
+        <div id="u38_div" class=""></div>
+        <div id="u38_text" class="text ">
+          <p><span>产生返佣名单及明细</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39" class="ax_default _形状">
+        <div id="u39_div" class=""></div>
+        <div id="u39_text" class="text ">
+          <p><span>使用返佣明细创建返佣审批工单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40" class="ax_default _形状">
+        <div id="u40_div" class=""></div>
+        <div id="u40_text" class="text ">
+          <p><span>创建后提交审批，创建关联的钉钉OA审批单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41" class="ax_default _形状">
+        <div id="u41_div" class=""></div>
+        <div id="u41_text" class="text ">
+          <p><span>审批流中的人员在钉钉中进行审批</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42" class="ax_default _形状">
+        <div id="u42_div" class=""></div>
+        <div id="u42_text" class="text ">
+          <p><span>审批通过后批量调用代付打款接口进行佣金发放</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u43" class="ax_default _形状">
+        <div id="u43_div" class=""></div>
+        <div id="u43_text" class="text ">
+          <p><span>佣金到账，返佣流程结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u44" class="ax_default _连接">
+        <img id="u44_seg0" class="img " src="images/业务逻辑说明/u44_seg0.svg" alt="u44_seg0"/>
+        <img id="u44_seg1" class="img " src="images/业务逻辑说明/u44_seg1.svg" alt="u44_seg1"/>
+        <div id="u44_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u45" class="ax_default _连接">
+        <img id="u45_seg0" class="img " src="images/业务逻辑说明/u45_seg0.svg" alt="u45_seg0"/>
+        <img id="u45_seg1" class="img " src="images/业务逻辑说明/u45_seg1.svg" alt="u45_seg1"/>
+        <div id="u45_text" class="text ">
+          <p><span>运营手动筛选</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u46" class="ax_default _连接">
+        <img id="u46_seg0" class="img " src="images/业务逻辑说明/u46_seg0.svg" alt="u46_seg0"/>
+        <img id="u46_seg1" class="img " src="images/业务逻辑说明/u46_seg1.svg" alt="u46_seg1"/>
+        <div id="u46_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u47" class="ax_default _连接">
+        <img id="u47_seg0" class="img " src="images/业务逻辑说明/u47_seg0.svg" alt="u47_seg0"/>
+        <img id="u47_seg1" class="img " src="images/业务逻辑说明/u47_seg1.svg" alt="u47_seg1"/>
+        <div id="u47_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u48" class="ax_default _连接">
+        <img id="u48_seg0" class="img " src="images/业务逻辑说明/u48_seg0.svg" alt="u48_seg0"/>
+        <img id="u48_seg1" class="img " src="images/业务逻辑说明/u48_seg1.svg" alt="u48_seg1"/>
+        <div id="u48_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u49" class="ax_default _连接">
+        <img id="u49_seg0" class="img " src="images/业务逻辑说明/u49_seg0.svg" alt="u49_seg0"/>
+        <img id="u49_seg1" class="img " src="images/业务逻辑说明/u49_seg1.svg" alt="u49_seg1"/>
+        <div id="u49_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u50" class="ax_default _连接">
+        <img id="u50_seg0" class="img " src="images/业务逻辑说明/u50_seg0.svg" alt="u50_seg0"/>
+        <img id="u50_seg1" class="img " src="images/业务逻辑说明/u50_seg1.svg" alt="u50_seg1"/>
+        <div id="u50_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u51" class="ax_default _连接">
+        <img id="u51_seg0" class="img " src="images/业务逻辑说明/u51_seg0.svg" alt="u51_seg0"/>
+        <img id="u51_seg1" class="img " src="images/业务逻辑说明/u51_seg1.svg" alt="u51_seg1"/>
+        <div id="u51_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u52" class="ax_default _连接">
+        <img id="u52_seg0" class="img " src="images/业务逻辑说明/u52_seg0.svg" alt="u52_seg0"/>
+        <img id="u52_seg1" class="img " src="images/业务逻辑说明/u52_seg1.svg" alt="u52_seg1"/>
+        <div id="u52_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u53" class="ax_default _连接">
+        <img id="u53_seg0" class="img " src="images/业务逻辑说明/u53_seg0.svg" alt="u53_seg0"/>
+        <img id="u53_seg1" class="img " src="images/业务逻辑说明/u53_seg1.svg" alt="u53_seg1"/>
+        <div id="u53_text" class="text ">
+          <p><span>运营手动筛选</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u54" class="ax_default _连接">
+        <img id="u54_seg0" class="img " src="images/业务逻辑说明/u54_seg0.svg" alt="u54_seg0"/>
+        <img id="u54_seg1" class="img " src="images/业务逻辑说明/u54_seg1.svg" alt="u54_seg1"/>
+        <div id="u54_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u55" class="ax_default _连接">
+        <img id="u55_seg0" class="img " src="images/业务逻辑说明/u55_seg0.svg" alt="u55_seg0"/>
+        <img id="u55_seg1" class="img " src="images/业务逻辑说明/u55_seg1.svg" alt="u55_seg1"/>
+        <div id="u55_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u56" class="ax_default _连接">
+        <img id="u56_seg0" class="img " src="images/业务逻辑说明/u56_seg0.svg" alt="u56_seg0"/>
+        <img id="u56_seg1" class="img " src="images/业务逻辑说明/u56_seg1.svg" alt="u56_seg1"/>
+        <div id="u56_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u57" class="ax_default _连接">
+        <img id="u57_seg0" class="img " src="images/业务逻辑说明/u57_seg0.svg" alt="u57_seg0"/>
+        <img id="u57_seg1" class="img " src="images/业务逻辑说明/u57_seg1.svg" alt="u57_seg1"/>
+        <div id="u57_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u58" class="ax_default _连接">
+        <img id="u58_seg0" class="img " src="images/业务逻辑说明/u58_seg0.svg" alt="u58_seg0"/>
+        <img id="u58_seg1" class="img " src="images/业务逻辑说明/u58_seg1.svg" alt="u58_seg1"/>
+        <div id="u58_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u59" class="ax_default _连接">
+        <img id="u59_seg0" class="img " src="images/业务逻辑说明/u59_seg0.svg" alt="u59_seg0"/>
+        <img id="u59_seg1" class="img " src="images/业务逻辑说明/u59_seg1.svg" alt="u59_seg1"/>
+        <div id="u59_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u60" class="ax_default _连接">
+        <img id="u60_seg0" class="img " src="images/业务逻辑说明/u60_seg0.svg" alt="u60_seg0"/>
+        <img id="u60_seg1" class="img " src="images/业务逻辑说明/u60_seg1.svg" alt="u60_seg1"/>
+        <div id="u60_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u61" class="ax_default _连接">
+        <img id="u61_seg0" class="img " src="images/业务逻辑说明/u61_seg0.svg" alt="u61_seg0"/>
+        <img id="u61_seg1" class="img " src="images/业务逻辑说明/u61_seg1.svg" alt="u61_seg1"/>
+        <div id="u61_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u62" class="ax_default _连接">
+        <img id="u62_seg0" class="img " src="images/业务逻辑说明/u62_seg0.svg" alt="u62_seg0"/>
+        <img id="u62_seg1" class="img " src="images/业务逻辑说明/u62_seg1.svg" alt="u62_seg1"/>
+        <div id="u62_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u63" class="ax_default _连接">
+        <img id="u63_seg0" class="img " src="images/业务逻辑说明/u63_seg0.svg" alt="u63_seg0"/>
+        <img id="u63_seg1" class="img " src="images/业务逻辑说明/u63_seg1.svg" alt="u63_seg1"/>
+        <div id="u63_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u64" class="ax_default _连接">
+        <img id="u64_seg0" class="img " src="images/业务逻辑说明/u64_seg0.svg" alt="u64_seg0"/>
+        <img id="u64_seg1" class="img " src="images/业务逻辑说明/u64_seg1.svg" alt="u64_seg1"/>
+        <div id="u64_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u65" class="ax_default _连接">
+        <img id="u65_seg0" class="img " src="images/业务逻辑说明/u65_seg0.svg" alt="u65_seg0"/>
+        <img id="u65_seg1" class="img " src="images/业务逻辑说明/u65_seg1.svg" alt="u65_seg1"/>
+        <div id="u65_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66" class="ax_default _文本段落">
+        <div id="u66_div" class=""></div>
+        <div id="u66_text" class="text ">
+          <p><span>定损步骤由BD操作可能存在BD与Agent串通的损失风险</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67" class="ax_default _文本段落">
+        <div id="u67_div" class=""></div>
+        <div id="u67_text" class="text ">
+          <p><span>仓管整体检修的结果同样需要记录，且需要与BD定损情况产生比对，对BD多次定损失误的情况进行警报提醒</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u68" class="ax_default _连接">
+        <img id="u68_seg0" class="img " src="images/业务逻辑说明/u68_seg0.svg" alt="u68_seg0"/>
+        <img id="u68_seg1" class="img " src="images/业务逻辑说明/u68_seg1.svg" alt="u68_seg1"/>
+        <div id="u68_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u69" class="ax_default _连接">
+        <img id="u69_seg0" class="img " src="images/业务逻辑说明/u69_seg0.svg" alt="u69_seg0"/>
+        <img id="u69_seg1" class="img " src="images/业务逻辑说明/u69_seg1.svg" alt="u69_seg1"/>
+        <div id="u69_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u70" class="ax_default _连接">
+        <img id="u70_seg0" class="img " src="images/业务逻辑说明/u70_seg0.svg" alt="u70_seg0"/>
+        <img id="u70_seg1" class="img " src="images/业务逻辑说明/u70_seg1.svg" alt="u70_seg1"/>
+        <div id="u70_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u71" class="ax_default _连接">
+        <img id="u71_seg0" class="img " src="images/业务逻辑说明/u71_seg0.svg" alt="u71_seg0"/>
+        <img id="u71_seg1" class="img " src="images/业务逻辑说明/u71_seg1.svg" alt="u71_seg1"/>
+        <div id="u71_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u72" class="ax_default _连接">
+        <img id="u72_seg0" class="img " src="images/业务逻辑说明/u72_seg0.svg" alt="u72_seg0"/>
+        <img id="u72_seg1" class="img " src="images/业务逻辑说明/u72_seg1.svg" alt="u72_seg1"/>
+        <div id="u72_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u73" class="ax_default _连接">
+        <img id="u73_seg0" class="img " src="images/业务逻辑说明/u73_seg0.svg" alt="u73_seg0"/>
+        <img id="u73_seg1" class="img " src="images/业务逻辑说明/u73_seg1.svg" alt="u73_seg1"/>
+        <div id="u73_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u74" class="ax_default _连接">
+        <img id="u74_seg0" class="img " src="images/业务逻辑说明/u74_seg0.svg" alt="u74_seg0"/>
+        <img id="u74_seg1" class="img " src="images/业务逻辑说明/u74_seg1.svg" alt="u74_seg1"/>
+        <div id="u74_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u75" class="ax_default _连接">
+        <img id="u75_seg0" class="img " src="images/业务逻辑说明/u75_seg0.svg" alt="u75_seg0"/>
+        <img id="u75_seg1" class="img " src="images/业务逻辑说明/u75_seg1.svg" alt="u75_seg1"/>
+        <div id="u75_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
