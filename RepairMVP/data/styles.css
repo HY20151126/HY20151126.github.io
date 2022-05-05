@@ -19,6 +19,9 @@
 .primary_button {
   color:#FFFFFF;
 }
+.link_button {
+  color:#169BD5;
+}
 ._一级标题 {
   font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:bold;
@@ -71,6 +74,11 @@
   color:#000000;
   text-align:left;
 }
+.checkbox {
+  text-align:left;
+}
+._流程形状 {
+}
 .form_disabled {
 }
 ._表单提示 {
@@ -116,7 +124,7 @@
 .shape {
 }
 ._60号字_如金额展示、金额输入） {
-  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:30px;
@@ -149,42 +157,42 @@
   color:#666666;
 }
 ._36号字_顶部标题、大按钮、弹窗提示主标题_ {
-  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:18px;
   text-align:left;
 }
 ._34号字_单行列表内，左方主标题文字字） {
-  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:17px;
   text-align:left;
 }
 ._32号字_单行列表内，右方操作说明的文字__） {
-  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:16px;
   text-align:left;
 }
 ._30号字_服务主标题，例如双行列表内的下方描述信息。__） {
-  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:15px;
   text-align:left;
 }
 ._28号字_页面备注信息及列表的表头说明文字__） {
-  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:14px;
   text-align:left;
 }
 ._24号字_最小说明文本，例如列表时间态、版权信息等） {
-  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:12px;
@@ -217,5 +225,35 @@
 .box_12 {
 }
 ._默认样式 {
+}
+.flow_shape1 {
+}
+.line1 {
+}
+.arrow {
+}
+.font_awesome_5_pro {
+  font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro Regular', 'Font Awesome 5 Pro', sans-serif;
+  font-weight:900;
+  font-style:normal;
+}
+.image2 {
+}
+.label1 {
+  font-size:14px;
+  text-align:left;
+}
+.heading_21 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.icon {
+}
+.image3 {
+}
+.box_31 {
 }
 textarea, select, input, button { outline: none; }
