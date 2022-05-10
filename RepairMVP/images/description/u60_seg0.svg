@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="62px" height="4px" viewBox="274 852  62 4" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(0 1 -1 0 1159 549 )">
-    <path d="M 305 824  L 305 878  " stroke-width="2" stroke="#0099cc" fill="none" />
-    <path d="M 297.4 877  L 305 884  L 312.6 877  L 297.4 877  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" />
-  </g>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="102px" height="4px" viewBox="154 912  102 4" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip25">
+      <path d="M 169 894  L 241 894  L 241 934  L 169 934  Z M 145 894  L 256 894  L 256 934  L 145 934  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <path d="M 169 914  L 161 914  M 241 914  L 255 914  " stroke-width="2" stroke="#0099cc" fill="none" />
+  <path d="M 162 906.4  L 155 914  L 162 921.6  L 162 906.4  Z " fill-rule="nonzero" fill="#0099cc" stroke="none" mask="url(#clip25)" />
 </svg>
